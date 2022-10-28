@@ -1,20 +1,26 @@
 :root {
   --primary-color: #f9f7fe;
   --secondary-color: #6c63ff;
+  --priority-font-family: "Playfair Display", serif;
+  --style-font-family: "Poppins", sans-serif;
 }
 body {
   background: var(--primary-color);
 }
-h1,
-h2,
+
 p {
   font-weight: bold;
+  font-family: var(--style-font-family);
 }
 h1 {
   font-size: 96px;
+  font-family: var(--priority-font-family);
 }
 h2 {
+  font-weight: bold;
   font-size: 36px;
+  color: #272142;
+  font-family: var(--style-font-family);
 }
 .wrap {
   margin: 170px 50px;
