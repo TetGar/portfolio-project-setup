@@ -9,9 +9,12 @@ body {
 }
 
 p {
-  font-weight: bold;
-  font-family: var(--style-font-family);
+  font-family: var(--priority-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
 }
+
 h1 {
   font-size: 96px;
   font-family: var(--priority-font-family);
@@ -37,4 +40,8 @@ h2 {
   color: #ffff;
   text-decoration: none;
   border-radius: 4px;
+}
+.btn-contact:hover {
+  background: var(--secondary-color);
+  color: #272142;
 }
