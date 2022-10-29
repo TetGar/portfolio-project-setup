@@ -46,3 +46,17 @@ p {
   background: var(--secondary-color);
   color: #272142;
 }
+.descriptions {
+  color: #272142;
+  font-size: 16px;
+  font-family: var(--style-font-family);
+  text-align: justify;
+  color: #6c757d;
+  line-height: 30px;
+}
+.container h2 {
+  font-size: 64px;
+}
+.strong {
+  padding: 120px 30px;
+}
