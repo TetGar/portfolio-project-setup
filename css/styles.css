@@ -80,3 +80,28 @@ p {
 .strong {
   padding: 120px 30px;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .wrap {
+    padding: 80px 20px;
+  }
+
+  .about-style {
+    text-align: center;
+    padding: 0;
+  }
+
+  .strong {
+    padding: 0;
+    text-align: center;
+  }
+}
