@@ -24,11 +24,13 @@ p {
 .about-style-descriptions h1 {
   font-size: 64px;
   font-family: var(--priority-font-family);
+  font-weight: bold;
+  color: black;
 }
 .about-style-descriptions h3 {
   font-size: 18px;
   font-family: var(--style-font-family);
-  font-weight: bold;
+  font-weight: normal;
 }
 .about-style-descriptions p {
   line-height: 30px;
