@@ -13,7 +13,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 36px;
-  color: #272142;
+  color: black;
   font-family: var(--style-font-family);
 }
 p {
@@ -21,32 +21,35 @@ p {
   text-align: center;
   color: #272142;
 }
-.about-style-descriptions h1 {
+.content-descriptions h1 {
   font-size: 64px;
   font-family: var(--priority-font-family);
   font-weight: bold;
   color: black;
 }
-.about-style-descriptions h3 {
+.content-descriptions h3 {
   font-size: 18px;
   font-family: var(--style-font-family);
   font-weight: normal;
 }
-.about-style-descriptions p {
+.content-descriptions p {
   line-height: 30px;
   color: #272142;
   font-size: 16px;
   font-family: var(--style-font-family);
 }
-.about-style {
+.content {
   margin: 100px 30px;
 }
-.wrap {
+.content h2 {
+  font-family: var(--priority-font-family);
+}
+.hero {
   padding: 160px 30px;
   text-align: center;
   background: var(--primary-color);
 }
-.wrap p {
+.hero p {
   font-size: 24px;
   margin: 0;
   font-family: var(--priority-font-family);
@@ -91,11 +94,11 @@ p {
     font-size: 44px;
   }
 
-  .wrap {
+  .hero {
     padding: 80px 20px;
   }
 
-  .about-style {
+  .content {
     text-align: center;
     padding: 0;
   }
