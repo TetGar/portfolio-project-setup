@@ -21,6 +21,24 @@ p {
   text-align: center;
   color: #272142;
 }
+.about-style-descriptions h1 {
+  font-size: 64px;
+  font-family: var(--priority-font-family);
+}
+.about-style-descriptions h3 {
+  font-size: 18px;
+  font-family: var(--style-font-family);
+  font-weight: bold;
+}
+.about-style-descriptions p {
+  line-height: 30px;
+  color: #272142;
+  font-size: 16px;
+  font-family: var(--style-font-family);
+}
+.about-style {
+  margin: 100px 30px;
+}
 .wrap {
   padding: 160px 30px;
   text-align: center;
