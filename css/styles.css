@@ -44,6 +44,12 @@ p {
 .content h2 {
   font-family: var(--priority-font-family);
 }
+.content h3 {
+  font-size: 24px;
+  font-family: var(--style-font-family);
+  line-height: 1.5;
+  font-weight: bolder !important;
+}
 .hero {
   padding: 160px 30px;
   text-align: center;
@@ -79,6 +85,12 @@ p {
 }
 .container h2 {
   font-size: 64px;
+}
+.img-positions {
+  padding: 145px 30px;
+}
+.content p {
+  font-size: 14px;
 }
 .strong {
   padding: 120px 30px;
