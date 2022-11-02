@@ -21,6 +21,31 @@ p {
   text-align: center;
   color: #272142;
 }
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 10px;
+  color: #272142;
+  font-size: 16px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--secondary-color);
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
 .content-descriptions h1 {
   font-size: 64px;
   font-family: var(--priority-font-family);
@@ -95,6 +120,9 @@ p {
 .strong {
   padding: 120px 30px;
 }
+.logo {
+  max-height: 40px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -118,5 +146,8 @@ p {
   .strong {
     padding: 0;
     text-align: center;
+  }
+  .row {
+    margin: 20px;
   }
 }
