@@ -4,9 +4,6 @@
   --priority-font-family: "Playfair Display", serif;
   --style-font-family: "Poppins", sans-serif;
 }
-body {
-  font-weight: 500;
-}
 
 h1 {
   font-size: 96px;
@@ -21,6 +18,8 @@ h2 {
 }
 h4 {
   font-size: 48px;
+  font-family: var(--priority-font-family);
+  font-weight: 600;
 }
 
 p {
@@ -176,7 +175,9 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-
+  h4 {
+    font-size: 24px;
+  }
   .hero {
     padding: 80px 20px;
   }
@@ -192,5 +193,8 @@ footer .social-links a:hover {
   }
   .row {
     margin: 20px;
+  }
+  .descriptions {
+    text-align: center;
   }
 }
