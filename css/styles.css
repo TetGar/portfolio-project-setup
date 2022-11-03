@@ -4,6 +4,9 @@
   --priority-font-family: "Playfair Display", serif;
   --style-font-family: "Poppins", sans-serif;
 }
+body {
+  font-weight: 500;
+}
 
 h1 {
   font-size: 96px;
@@ -16,6 +19,10 @@ h2 {
   color: black;
   font-family: var(--style-font-family);
 }
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 18px;
   text-align: center;
@@ -44,8 +51,9 @@ nav a:hover {
 }
 nav ul {
   padding: 0;
-  margin: 0;
+  padding: 0;
 }
+
 .content-descriptions h1 {
   font-size: 64px;
   font-family: var(--priority-font-family);
@@ -87,7 +95,11 @@ nav ul {
   font-weight: bold;
   line-height: 2;
 }
-
+.img-project {
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+}
 .btn-contact {
   font-size: 18px;
   padding: 18px 46px;
@@ -122,6 +134,37 @@ nav ul {
 }
 .logo {
   max-height: 40px;
+}
+
+footer .contact-follow {
+  background: var(--primary-color);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+footer .contact-follow p {
+  margin: 0;
+  text-align: start;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+footer .social-links a:hover {
+  color: #ffff;
+  background: var(--secondary-color);
 }
 @media (max-width: 900px) {
   h1 {
