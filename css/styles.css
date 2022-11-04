@@ -11,21 +11,24 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-weight: bold;
   font-size: 36px;
   color: black;
+  font-family: var(--priority-font-family);
+}
+h3 {
+  font-size: 16px;
   font-family: var(--style-font-family);
 }
 h4 {
   font-size: 48px;
   font-family: var(--priority-font-family);
-  font-weight: 600;
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   color: #272142;
+  font-family: var(--style-font-family);
 }
 nav {
   padding: 20px 0;
@@ -83,7 +86,7 @@ nav ul {
   font-weight: bolder !important;
 }
 .hero {
-  padding: 160px 30px;
+  padding: 90px 30px;
   text-align: center;
   background: var(--primary-color);
 }
@@ -129,7 +132,7 @@ nav ul {
   font-size: 14px;
 }
 .strong {
-  padding: 120px 30px;
+  padding: 30px;
 }
 .logo {
   max-height: 40px;
@@ -139,6 +142,7 @@ footer .contact-follow {
   background: var(--primary-color);
   padding: 30px 100px;
   border-radius: 10px;
+  margin: 50px 0;
 }
 footer .contact-follow p {
   margin: 0;
@@ -178,9 +182,6 @@ footer .social-links a:hover {
   h4 {
     font-size: 24px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
 
   .content {
     text-align: center;
@@ -189,12 +190,6 @@ footer .social-links a:hover {
 
   .strong {
     padding: 0;
-    text-align: center;
-  }
-  .row {
-    margin: 20px;
-  }
-  .descriptions {
     text-align: center;
   }
 }
