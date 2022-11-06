@@ -14,6 +14,7 @@ h2 {
   font-size: 36px;
   color: black;
   font-family: var(--priority-font-family);
+  font-weight: bold;
 }
 h3 {
   font-size: 16px;
@@ -79,12 +80,7 @@ nav ul {
 .content h2 {
   font-family: var(--priority-font-family);
 }
-.content h3 {
-  font-size: 24px;
-  font-family: var(--style-font-family);
-  line-height: 1.5;
-  font-weight: bolder !important;
-}
+
 .hero {
   padding: 90px 30px;
   text-align: center;
