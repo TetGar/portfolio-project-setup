@@ -38,7 +38,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 40px;
-  margin-left: 10px;
+  margin-left: 30px;
   color: #272142;
   font-size: 16px;
 }
@@ -51,6 +51,7 @@ nav a {
 nav li.active a,
 nav a:hover {
   color: var(--secondary-color);
+  text-decoration: underline;
 }
 nav ul {
   padding: 0;
