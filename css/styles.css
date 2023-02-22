@@ -1,35 +1,45 @@
+body {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding-bottom: 45px;
+}
 :root {
-  --primary-color: #f9f7fe;
-  --secondary-color: #6c63ff;
-  --priority-font-family: "Playfair Display", serif;
-  --style-font-family: "Poppins", sans-serif;
+  --primary-color: #e1dfde;
+  --secondary-color: #1b1b1b;
+  --priority-font-family: "DM Serif Text", serif;
+  --style-font-family: "Quicksand", sans-seri;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 60px;
   font-family: var(--priority-font-family);
   font-weight: bold;
+
+  margin-top: 20px;
 }
 h2 {
   font-size: 36px;
   color: black;
-  font-family: var(--priority-font-family);
-  font-weight: bold;
+
+  font-weight: 300;
 }
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-family: var(--style-font-family);
 }
 h4 {
   font-size: 48px;
   font-family: var(--priority-font-family);
 }
-
-p {
+.title {
+  font-weight: bold;
   font-size: 16px;
-
+}
+p {
+  font-size: 25px;
   color: #272142;
   font-family: var(--style-font-family);
+  opacity: 0.7;
 }
 nav {
   padding: 20px 0;
@@ -50,11 +60,9 @@ nav a {
 
 nav li.active a,
 nav a:hover {
-  color: var(--secondary-color);
-  text-decoration: underline;
+  color: #e35454;
 }
 nav ul {
-  padding: 0;
   padding: 0;
 }
 
@@ -78,24 +86,39 @@ nav ul {
 .content {
   margin: 100px 30px;
 }
-.logo {
-  font-size: 20px;
+.data-name {
+  font-size: 25px;
+  color: #1b1b1b;
+
+  font-weight: 200;
+}
+.data-name:hover {
+  color: #e35454;
 }
 .content h2 {
   font-family: var(--priority-font-family);
 }
 
 .hero {
-  padding: 90px 30px;
-  text-align: center;
   background: var(--primary-color);
+  text-transform: uppercase;
+  padding: 80px 20px;
+  text-align: center;
 }
 .hero p {
   font-size: 24px;
-  margin: 0;
-  font-family: var(--priority-font-family);
-  font-weight: bold;
   line-height: 2;
+}
+.btn-submit {
+  border: 1px solid #1b1b1b;
+  padding: 10px 20px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+.btn-submit:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 .img-project {
   padding: 20px;
@@ -103,29 +126,47 @@ nav ul {
   background: var(--primary-color);
 }
 .btn-contact {
-  font-size: 18px;
-  padding: 18px 46px;
   background: var(--secondary-color);
+  border-radius: 35px;
   color: #ffff;
   text-decoration: none;
-  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border: 1px solid var(--secondary-color);
+  margin: 20px;
 }
+
 .btn-contact:hover {
-  background: var(--secondary-color);
-  color: #272142;
+  border: 1px solid var(--secondary-color);
+}
+.open-sourced-link {
+  text-decoration: none;
+}
+.open-sourced-link:hover {
+  color: #e35454;
+}
+form {
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
 }
 .descriptions {
-  font-size: 16px;
+  font-size: 20px;
   font-family: var(--style-font-family);
 
   color: #6c757d;
   line-height: 30px;
 }
 .container h2 {
-  font-size: 64px;
+  font-size: 57px;
+  margin-bottom: 40px !important;
 }
-.img-positions {
-  padding: 145px 30px;
+.data-photo {
+  border-radius: 30px;
+}
+.img-position {
+  padding: 112px 30px;
+  margin-bottom: 17px;
 }
 .content p {
   font-size: 14px;
@@ -135,13 +176,12 @@ nav ul {
   padding: 30px;
 }
 
-.logo:hover {
-  color: #6c757d;
-  background: #f9f7fe;
+nav {
+  margin-bottom: 30px;
 }
 
 footer .contact-follow {
-  background: var(--primary-color);
+  background: rgb(246, 243, 243);
   padding: 30px 100px;
   border-radius: 10px;
   margin: 50px 0;
@@ -153,23 +193,26 @@ footer .contact-follow p {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--secondary-color);
   font-size: 24px;
 }
 footer .email-link:hover {
-  color: var(--secondary-color);
+  color: #e35454;
 }
 footer .social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
   background: var(--primary-color);
-  padding: 10px 14px;
+  padding: 9px 16px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 25px;
 }
 footer .social-links a:hover {
   color: #ffff;
   background: var(--secondary-color);
+}
+footer.about {
+  margin-top: 50px;
 }
 @media (max-width: 900px) {
   h1 {

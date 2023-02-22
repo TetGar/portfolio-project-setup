@@ -29,11 +29,9 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-center">
+      <nav class="d-flex justify-content-between">
         <a href="/index.html">
-          <div class="logo">
-            <em class="logo shadow">TG</em>
-          </div>
+          <div class="data-name">Tetiana Garastej</div>
         </a>
         <ul>
           <li><a href="/" title="Homepage"> Home</a></li>
@@ -45,66 +43,60 @@
         </ul>
       </nav>
     </div>
-    <div class="container">
-      <div class="content-descriptions md m-5">
-        <h2 class="mb-4">Let`s get in touch!</h2>
-        <h3 class="mt-5">Email</h3>
-        <p>
-          <a href="mailto:tgarastej@gmail.com" target="_blank"
-            >tgarastej@gmail.com</a
-          >
-        </p>
 
-        <h3>Instagram</h3>
-        <p>
-          <a href="https://www.instagram.com" target="_blank">tanya_garastej</a>
-        </p>
-        <h3>Twitter</h3>
-        <p>
-          <a href="https://www.twitter.com" target="_blank">tanya_garastej</a>
-        </p>
+    <div class="content-container container">
+      <div class="content">
+        <h1 class="mb-5">Let's get in touch!</h1>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/mwkalajy"
+              method="POST"
+              class="p-3 mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-submit">Send</button>
+            </form>
+          </div>
+        </div>
       </div>
-      <footer>
-        <div
-          class="contact-follow mb-5 container d-flex justify-content-between d-none d-md-flex"
-        >
-          <div>
-            <h4>Work Inquiry</h4>
-            <p>Let`s work together</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn btn-contact"
-              title="contact Tetiana"
-              >Contact me</a
-            >
-          </div>
+      <footer class="about">
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="mailto:tgarastej@gmail.com"
+            ><i class="fa-solid fa-envelope" title="E-mail"></i
+          ></a>
+          <a href="https://github.com"
+            ><i class="fa-brands fa-github" title="Github Profile"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-linkedin" title="Linkedin Profile"></i
+          ></a>
         </div>
-        <div>
-          <div class="d-flex justify-content-center mb-5">
-            <a
-              href="mailto:tgarastej@gmail.com"
-              class="email-link"
-              title="Email Tetiana"
-              >tgarastej@gmail.com</a
-            >
-          </div>
-          <div class="social-links d-flex justify-content-center mb-5">
-            <a href=""
-              ><i class="fa-brands fa-instagram" title="Instagram Profile"></i
-            ></a>
-            <a href="https://github.com"
-              ><i class="fa-brands fa-github" title="Github Profile"></i
-            ></a>
-            <a href="https://www.facebook.com/search/top/?q=Odessa%20Teti"
-              ><i class="fa-brands fa-facebook" title="Facebook Profile"></i
-            ></a>
-          </div>
-        </div>
+
         <h3 class="text-center m-5">
-          ✌️ This website was coded by Tetiana Garastej, and is
-          <a href="https://github.com/TetGar/responsive-final-project">
+          ✌️ This website was coded by Tetiana Garastej and is
+          <a
+            href="https://github.com/TetGar/responsive-final-project"
+            class="open-sourced-link"
+          >
             open-sourced</a
           >
         </h3>
