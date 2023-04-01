@@ -65,6 +65,14 @@ nav a:hover {
 nav ul {
   padding: 0;
 }
+.emailData {
+  text-align: center;
+  font-size: 26px;
+  color: var(--secondary-color);
+}
+.emailData:hover {
+  color: #e35454;
+}
 
 .content-descriptions h1 {
   font-size: 64px;
